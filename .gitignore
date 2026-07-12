@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+
+# 环境变量（包含 API Key，切勿提交）
+.env
+
+# 系统/编辑器文件
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# WorkBuddy 内部文件
+.workbuddy/
+
+# 部署包（打包产物，不需要提交）
+三米生图-部署包/
+*.zip
+
+# 旧版文件（已迁移到 public/）
+/index.html
+/styles.css
+/app.js

@@ -1,0 +1,26 @@
+{
+  "name": "sanmi-image-gen",
+  "version": "1.0.0",
+  "description": "三米生图 - AI智能生图平台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo \"静态前端无需构建，直接部署 public/ 目录即可\""
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "doubao",
+    "seedream"
+  ],
+  "license": "MIT"
+}
